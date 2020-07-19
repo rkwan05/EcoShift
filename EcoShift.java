@@ -189,8 +189,8 @@ public class EcoShift extends JFrame implements ActionListener{
             EcoShift game = new EcoShift(1.1);
             this.dispose();
         } // end if
-        else if (e.getSource() == generalButtons[0]) {
-            foodOrDrinkScreen = new FoodOrDrinkScreen();
+        else if (e.getSource() == generalButtons[1]) {
+            foodOrDrinkScreen = new FoodOrDrinkScreen(1.1);
             this.dispose();
         } // end if
     }
